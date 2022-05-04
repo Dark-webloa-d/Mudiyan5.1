@@ -80,8 +80,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕️', url='http://t.me/Auto_FiLtEr_RoBit_Bot?startgroup=true')        
             ],[
-            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('Hᴇʟᴘ 📢', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ 👼', callback_data='about')
             ],[
             InlineKeyboardButton('Gʀᴏᴜᴩ', url='https://t.me/Movies_Series_Requesting_Group'),        
             InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/+Rc9TK3wIf6xjODE9')
