@@ -18,10 +18,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+Rc9TK3wIf6xjODE9')
+                InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/+Rc9TK3wIf6xjODE9')
             ],
             [
-                InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('Hᴇʟᴩ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
