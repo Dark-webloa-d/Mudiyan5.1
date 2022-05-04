@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
+                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+Rc9TK3wIf6xjODE9')
             ],
             [
                 InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -37,10 +37,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs', url='http://t.me/Auto_FiLtEr_RoBit_Bot?startgroup=true')             
+            InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕️', url='http://t.me/Auto_FiLtEr_RoBit_Bot?startgroup=true')             
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -75,11 +75,14 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs', url='http://t.me/Auto_FiLtEr_RoBit_Bot?startgroup=true')        
+            InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕️', url='http://t.me/Auto_FiLtEr_RoBit_Bot?startgroup=true')        
             ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
-        ]]
+            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('Gʀᴏᴜᴩ', url='https://t.me/Movies_Series_Requesting_Group')        
+            InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/+Rc9TK3wIf6xjODE9')
+        ]]  
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
