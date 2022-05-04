@@ -10,14 +10,14 @@ class script(object):
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝐾𝑖𝑎𝑟𝑎 𝑎𝑑𝑤𝑎𝑛𝑖 🌼                       
 ╔══════════════════❍
 ║╭━━━━━━━━━━━━━━━➣ 
-║➠ 𝙼𝚈 𝙽𝙰𝙼𝙴 - <a href="http://t.me/Auto_FiLtEr_RoBit_Bot"> 𝐾𝑖𝑎𝑟𝑎 𝑎𝑑𝑤𝑎𝑛𝑖 🌼</a>
-║➠ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href="https://t.me/DARKWEBLOAD">Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</a>
-║➠ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 - <a href="https://t.me/DARKWEBLOAD">DᴡL</a> 
-║➠ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - ᴘʏʀᴏɢʀᴀᴍ
-║➠ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - ᴘʏᴛʜᴏɴ 3
-║➠ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 - ᴍᴏɴɢᴏ ᴅʙ
-║➠ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 -  ʜᴇʀᴏᴋᴜ
-║➠ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 - ᴠ1.0.1 [ ʙᴇᴛᴀ ]
+║🖊️ My Nᴀᴍᴇ - <a href="http://t.me/Auto_FiLtEr_RoBit_Bot"> 𝐾𝑖𝑎𝑟𝑎 𝑎𝑑𝑤𝑎𝑛𝑖 🌼</a>
+║🧑‍💻 Cʀᴇᴀᴛᴏʀ - <a href="https://t.me/DARKWEBLOAD">Dᴀʀᴋ ᴡᴇʙʟᴏᴀᴅ🇮🇳</a>
+║💵 Cʀᴇᴅɪᴛꜱ - <a href="https://t.me/DARKWEBLOAD">DᴡL</a> 
+║🗣️ Lᴀɴɢᴜᴀɢᴇ - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+║📔 Lɪʙʀᴀʀɪ - 𝙿𝚈𝚃𝙷𝙾𝙽
+║🧬 Cʟᴏɴᴇᴅ Fʀᴏᴍ - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+║📦 Dᴀᴛᴀ Bᴀꜱᴇ -  𝙷𝙴𝚁𝙾𝙺𝚄
+║🚥 Bᴜɪʟᴅ Sᴛᴀᴛᴜꜱ - ᴠ1.0.1 [ 𝙱𝙴𝚃𝙰 ]
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍"""
     SOURCE_TXT = """<b>NOTE:</b>
 - This Bot not a open source project. 
